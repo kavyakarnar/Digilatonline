@@ -1,141 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Refund Services - Get Help Now</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prime Refund Support — Fast & Trusted</title>
+  <meta name="description" content="Prime Refund Support helps you recover refunds quickly. Call now for expert support with order refunds, disputes and chargebacks." />
+  <meta name="robots" content="index,follow" />
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Prime Refund Support",
+    "telephone":"+91-8927885468",
+    "url":"https://kavyakarnar.github.io/Digitalworld/",
+    "address":{"@type":"PostalAddress","addressLocality":"Your City","addressCountry":"IN"}
+  }
+  </script>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NM2FG4HG');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google Ads Global Site Tag -->
+  <!-- ========== Google tag (gtag.js) for Ads conversions ========== -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17455854824"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
+
+    // Ads conversion / Google Ads config
     gtag('config', 'AW-17455854824');
+
+    // Optional: If you use GA4, uncomment and replace with your G- ID:
+    // gtag('config', 'G-XXXXXXX');
   </script>
 
+  <!-- ========== Google AdSense (replace ca-pub-XXXXXXXXXXXXXXXX) ========== -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #ECFFEC;
-      color: #333;
-      text-align: center;
+    /* Simple modern dark theme (responsive) */
+    :root{
+      --bg:#0b1220; --card:#0f1724; --accent:#ffb400; --muted:#94a3b8; --text:#e6eef8; --maxw:1100px;
     }
-    header {
-      background: #28a745;
-      color: white;
-      padding: 15px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    .container {
-      padding: 20px;
-    }
-    h1 {
-      color: #1e7e34;
-    }
-    .cta-btn {
-      display: inline-block;
-      background: #28a745;
-      color: white;
-      padding: 15px 25px;
-      margin: 10px;
-      border-radius: 8px;
-      font-size: 18px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-    .cta-btn:hover {
-      background: #1e7e34;
-    }
-    footer {
-      background: #222;
-      color: #ccc;
-      padding: 15px;
-      font-size: 14px;
-      margin-top: 30px;
-    }
-    .highlight {
-      background: yellow;
-      padding: 3px 6px;
-      border-radius: 4px;
-    }
-    .footer-links a {
-      color: #ccc;
-      text-decoration: none;
-      margin: 0 8px;
-    }
-    .footer-links a:hover {
-      text-decoration: underline;
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg);}
+    a{color:var(--accent);text-decoration:none}
+    header{position:sticky;top:0;background:linear-gradient(180deg, rgba(5,10,20,.95), rgba(5,10,20,.9));border-bottom:1px solid rgba(255,180,0,.06);z-index:10}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ff8a00);display:flex;align-items:center;justify-content:center;color:#071129;font-weight:800}
+    .site-title{font-weight:700;font-size:16px}
+    .call-now{background:var(--accent);color:#071129;padding:10px 12px;border-radius:10px;font-weight:800;display:inline-flex;gap:8px;align-items:center}
+    main{max-width:var(--maxw);margin:28px auto;padding:0 20px}
+    .hero{display:grid;grid-template-columns:1fr 340px;gap:28px;padding:24px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    h1{font-size:28px;margin:0;color:var(--text)}
+    p.lead{color:var(--muted);margin-top:12px}
+    .cta-row{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:10px;font-weight:800}
+    .btn-primary{background:var(--accent);color:#071129}
+    .btn-ghost{border:1px solid rgba(255,255,255,0.04);color:var(--muted)}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));padding:16px;border-radius:10px;border:1px solid rgba(255,255,255,0.03)}
+    label{display:block;font-size:13px;color:var(--muted);margin-top:10px}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);margin-top:6px}
+    button[type="submit"]{margin-top:12px;background:var(--accent);color:#071129;padding:10px;border-radius:8px;border:0;font-weight:800;width:100%}
+
+    .ads-box{margin:18px 0;padding:12px;border-radius:8px;background:rgba(255,255,255,0.01);text-align:center;border:1px dashed rgba(255,255,255,0.02)}
+    footer{max-width:var(--maxw);margin:28px auto;padding:18px 20px;color:var(--muted);font-size:14px;text-align:center;border-top:1px solid rgba(255,255,255,0.02)}
+
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .wrap{padding:12px}
     }
   </style>
 </head>
 <body>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NM2FG4HG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <header>
-    Refund Services - Instant Assistance
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo">PR</div>
+        <div>
+          <div class="site-title">Prime Refund Support</div>
+          <div style="font-size:12px;color:var(--muted)">Fast · Transparent · Trusted</div>
+        </div>
+      </div>
+      <a class="call-now" href="tel:+918927885468" aria-label="Call now">📞 Call Now <strong style="margin-left:8px;">+91 8927885468</strong></a>
+    </div>
   </header>
 
-  <div class="container">
-    <h1>Need a Refund? We Can Help!</h1>
-    <p>Our <span class="highlight">Refund Support Team</span> is here to assist you in getting your money back quickly and securely.</p>
-    
-    <!-- Call Buttons -->
-    <a class="cta-btn" href="tel:8927885467">📞 Call Now</a>
-    <a class="cta-btn" href="tel:8927885467">📱 Speak to Support</a>
+  <main>
+    <div class="hero" role="region" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Recover Your Refund — Fast & Professional Support</h1>
+        <p class="lead">We follow up with merchants, payment providers and couriers so you don't have to. Transparent pricing, secure process, live support.</p>
 
-    <h2>Why Choose Us?</h2>
-    <ul style="list-style:none; padding:0; line-height:1.8;">
-      <li>✅ Fast Processing</li>
-      <li>✅ 24/7 Customer Support</li>
-      <li>✅ 100% Secure Service</li>
-    </ul>
-  </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="tel:+918927885468">📞 Call now</a>
+          <a class="btn btn-ghost" href="#contact">Message & Email</a>
+        </div>
+
+        <div class="ads-box" aria-hidden="false" style="margin-top:16px">
+          <!-- Inline responsive ad slot (AdSense) -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+               data-ad-slot="1111111111"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <p style="margin-top:12px;color:var(--muted)">Typical refund time after approval: <strong style="color:var(--accent)">5–14 business days</strong></p>
+      </div>
+
+      <aside class="card" aria-labelledby="quick-claim-title">
+        <h3 id="quick-claim-title">Quick Claim</h3>
+        <form id="quickClaim" onsubmit="submitQuickClaim(event)">
+          <label for="name">Full name</label>
+          <input id="name" name="name" required autocomplete="name" />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+          <label for="order">Order / Transaction ID</label>
+          <input id="order" name="order" required />
+          <label for="issue">Short description</label>
+          <textarea id="issue" name="issue" rows="4" required></textarea>
+          <button type="submit">Submit & Get Review</button>
+        </form>
+        <p style="color:var(--muted);margin-top:10px">We will email a free review with next steps. For urgent help, use the Call Now button above.</p>
+      </aside>
+    </div>
+
+    <!-- Services / About -->
+    <section id="about" style="margin-top:24px">
+      <h3 style="color:var(--text)">About Prime Refund Support</h3>
+      <p style="color:var(--muted)">Prime Refund Support is a consumer-first refund assistance service. We handle communication with merchants, escalate to payment providers and keep you informed at every step. See our <a href="#privacy">Privacy Policy</a>.</p>
+    </section>
+
+    <!-- More content sample -->
+    <section id="services" style="margin-top:18px">
+      <h3 style="color:var(--text)">Our Services</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px">
+        <div style="background:var(--card);padding:12px;border-radius:8px"><strong>Order Refunds</strong><p style="color:var(--muted)">We file and track claims for undelivered/damaged items.</p></div>
+        <div style="background:var(--card);padding:12px;border-radius:8px"><strong>Payment Disputes</strong><p style="color:var(--muted)">Chargebacks & gateway disputes handled.</p></div>
+        <div style="background:var(--card);padding:12px;border-radius:8px"><strong>Subscription Refunds</strong><p style="color:var(--muted)">Cancel recurring subscriptions & recover charges.</p></div>
+      </div>
+    </section>
+
+    <!-- Contact & detailed claim -->
+    <section id="claim" style="margin-top:24px;display:grid;grid-template-columns:1fr 320px;gap:18px">
+      <div style="background:var(--card);padding:16px;border-radius:10px">
+        <h4 style="margin-top:0;color:var(--text)">Detailed Claim</h4>
+        <form onsubmit="submitDetailedClaim(event)">
+          <label for="dname">Full name</label>
+          <input id="dname" required autocomplete="name"/>
+          <label for="demail">Email</label>
+          <input id="demail" type="email" required autocomplete="email"/>
+          <label for="dphone">Phone (optional)</label>
+          <input id="dphone" type="tel" placeholder="+91"/>
+          <label for="dorder">Order / Transaction ID</label>
+          <input id="dorder" required/>
+          <label for="ddesc">Describe the issue & attach proof links</label>
+          <textarea id="ddesc" rows="6" required></textarea>
+          <button type="submit">Send Claim</button>
+        </form>
+      </div>
+
+      <aside id="contact" class="card">
+        <h4 style="margin-top:0;color:var(--text)">Contact & Support</h4>
+        <p style="color:var(--muted)"><strong>Phone:</strong> <a href="tel:+918927885468">+91 8927885468</a></p>
+        <p style="color:var(--muted)"><strong>Email:</strong> <a href="mailto:serviceonline7165@gmail.com">serviceonline7165@gmail.com</a></p>
+        <p style="color:var(--muted)">Office hours: Mon–Sat, 09:30–19:00</p>
+      </aside>
+    </section>
+
+    <!-- bottom ad slot -->
+    <div class="ads-box">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="3333333333"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Privacy policy anchor content -->
+    <section id="privacy" style="margin-top:26px;background:var(--card);padding:16px;border-radius:8px">
+      <h3 style="margin-top:0;color:var(--text)">Privacy Policy</h3>
+      <p style="color:var(--muted)">We collect only the information you provide to process refund requests (name, email, order details). We don't sell personal data. We use cookies and Google services (Google Ads/Analytics/AdSense) to measure and improve performance. By using our site you agree to our data processing for service delivery and analytics. For questions, email <a href="mailto:serviceonline7165@gmail.com">serviceonline7165@gmail.com</a>.</p>
+      <p style="color:var(--muted);font-size:13px">This policy is a short summary — keep a full legal privacy policy page if required.</p>
+    </section>
+  </main>
 
   <footer>
-    <div class="footer-links">
-      <a href="#privacy-policy">Privacy Policy</a> |
-      <a href="#terms">Terms & Conditions</a> |
-      <a href="#contact">Contact Us</a>
-    </div>
-    <p>&copy; 2025 Refund Services. All rights reserved.</p>
+    <small style="color:var(--muted)">© <span id="yr"></span> Prime Refund Support • <a href="#privacy">Privacy Policy</a> • <a href="#">Terms</a></small>
   </footer>
 
-  <!-- Privacy Policy Section -->
-  <section id="privacy-policy" style="padding:20px; background:#f8f8f8; text-align:left;">
-    <h2>Privacy Policy</h2>
-    <p>We respect your privacy. All personal information provided is kept confidential and is used solely for providing our refund assistance services.</p>
-  </section>
+  <script>
+    // set year
+    document.getElementById('yr').textContent = new Date().getFullYear();
 
-  <!-- Terms Section -->
-  <section id="terms" style="padding:20px; background:#fff; text-align:left;">
-    <h2>Terms & Conditions</h2>
-    <p>Our services are subject to terms and conditions. We do not guarantee refunds in all cases and our role is limited to providing assistance in the refund process.</p>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" style="padding:20px; background:#f8f8f8; text-align:left;">
-    <h2>Contact Us</h2>
-    <p>📞 Phone: <a href="tel:8927885467">8927885467</a></p>
-    <p>📧 Email: support@refundservices.com</p>
-  </section>
-
+    // form handlers (demo: opens mail client)
+    function submitQuickClaim(e){
+      e.preventDefault();
+      const n=document.getElementById('name').value.trim();
+      const em=document.getElementById('email').value.trim();
+      const o=document.getElementById('order').value.trim();
+      const i=document.getElementById('issue').value.trim();
+      if(!n||!em||!o||!i){ return alert('Please complete all fields'); }
+      const subj=encodeURIComponent('Quick Refund Review -- '+o);
+      const body=encodeURIComponent(`Name: ${n}\nEmail: ${em}\nOrder: ${o}\n\nIssue:\n${i}`);
+      window.location.href=`mailto:serviceonline7165@gmail.com?subject=${subj}&body=${body}`;
+    }
+    function submitDetailedClaim(e){
+      e.preventDefault();
+      const n=document.getElementById('dname').value.trim();
+      const em=document.getElementById('demail').value.trim();
+      const o=document.getElementById('dorder').value.trim();
+      const d=document.getElementById('ddesc').value.trim();
+      if(!n||!em||!o||!d){ return alert('Please fill all required fields'); }
+      const subj=encodeURIComponent('Detailed Refund Claim -- '+o);
+      const body=encodeURIComponent(`Name: ${n}\nEmail: ${em}\nOrder: ${o}\n\n${d}`);
+      window.location.href=`mailto:serviceonline7165@gmail.com?subject=${subj}&body=${body}`;
+    }
+  </script>
 </body>
 </html>
